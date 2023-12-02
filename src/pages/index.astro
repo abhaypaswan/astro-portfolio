@@ -6,6 +6,7 @@ import ContactsCard from "../components/ContactsCard.astro";
 import TimeZone from "../components/TimeZoneCard.astro";
 import AboutMe from "../components/AboutMe.astro";
 import Now from "../components/Now.astro";
+import Project from "../components/Project.astro";
 ---
 
 <script>
@@ -31,7 +32,7 @@ import Now from "../components/Now.astro";
 </script>
 
 <Layout
-  title="Gianmarco Cavallo - Frontend Developer"
+  title="Abhay Paswan - Frontend Developer"
   description="Software developer with strong focus on the user experience animations and micro interactions"
 >
   <main
@@ -41,12 +42,7 @@ import Now from "../components/Now.astro";
     <AboutMe />
     <ContactsCard />
     <TimeZone />
-    <Card
-      colSpan="md:col-span-1"
-      rowSpan="md:row-span-1"
-      title="Blog"
-      href="/blog"
-    />
+    <Project />
     <Now />
     <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
       <p class="text-xs">
@@ -54,7 +50,7 @@ import Now from "../components/Now.astro";
           href="https://astro.build/"
           target="_blank"
           class="text-red-500">Astro</a
-        > by Gianmarco.
+        > by Abhay.
       </p>
     </Card>
   </main>
